@@ -124,12 +124,8 @@ USE_TZ = True
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
-    ),
-    "DEFAULT_PERMISSION_CLASSES": (
-        "rest_framework.permissions.IsAuthenticated",
     )
 }
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
@@ -137,6 +133,10 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://192.168.0.102:5173",
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://web-production-564941.up.railway.app"
 ]
 
 STATIC_URL = 'static/'
