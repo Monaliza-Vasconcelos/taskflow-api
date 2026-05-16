@@ -134,7 +134,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://192.168.0.102:5173",
     "https://taskflow-web-30n9.onrender.com",
-    "https://taskflow-web-mauve.vercel.app/login",
+    "https://taskflow-web-mauve.vercel.app",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
