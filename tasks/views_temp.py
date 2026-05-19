@@ -3,9 +3,11 @@ from django.contrib.auth import get_user_model
 
 def create_admin(request):
     User = get_user_model()
+
     if not User.objects.filter(username="admin").exists():
         User.objects.create_superuser(
-            "user",
-            "123@abc"
+            username="admin",
+            password="12345678",
         )
+
     return HttpResponse("admin criado")
