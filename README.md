@@ -121,7 +121,7 @@ curl -X DELETE http://127.0.0.1:8000/api/tasks/1/ \
 ### ▶️ Como rodar o projeto
 
 ```bash
-git clone https://github.com/SEU_USUARIO/taskflow-backend.git
+git clone git@github.com:Monaliza-Vasconcelos/taskflow-api.git
 cd taskflow-backend
 
 python -m venv venv
