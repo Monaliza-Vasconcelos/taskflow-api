@@ -139,7 +139,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://web-production-564941.up.railway.app"
+    "https://taskflow-web-30n9.onrender.com",
 ]
 
 STATIC_URL = 'static/'
